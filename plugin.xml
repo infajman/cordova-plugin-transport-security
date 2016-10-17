@@ -12,10 +12,27 @@
     </engines>
     <platform name="ios">
       <config-file target="*-Info.plist" parent="NSAppTransportSecurity">
+        <dict>
+          <key>NSAllowsArbitraryLoads</key>
+          <false/>
+          <key>NSExceptionDomains</key>
           <dict>
-              <key>NSAllowsArbitraryLoads</key>
+            <key>app.kickbit.com</key>
+            <dict>
+              <key>NSExceptionAllowsInsecureHTTPLoads</key>
               <true/>
+              <key>NSIncludesSubdomains</key>
+              <true/>
+            </dict>
+            <key>i.kickbit.com</key>
+            <dict>
+              <key>NSExceptionAllowsInsecureHTTPLoads</key>
+              <true/>
+              <key>NSIncludesSubdomains</key>
+              <true/>
+            </dict>
           </dict>
+        </dict>
       </config-file>
     </platform>
 </plugin>
