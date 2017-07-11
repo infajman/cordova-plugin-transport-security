@@ -19,7 +19,7 @@
           <true/>
           <key>NSExceptionDomains</key>
           <dict>
-            <keymanresa.cat</key>
+            <key>manresa.cat</key>
             <dict>
               <key>NSExceptionAllowsInsecureHTTPLoads</key>
               <true/>
