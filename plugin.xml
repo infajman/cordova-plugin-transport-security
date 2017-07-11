@@ -15,23 +15,17 @@
         <dict>
           <key>NSAllowsArbitraryLoads</key>
           <false/>
+          <key>NSAllowsArbitraryLoadsInWebContent</key>
+          <true/>
           <key>NSExceptionDomains</key>
           <dict>
-            <key>app.kickbit.com</key>
+            <keymanresa.cat</key>
             <dict>
               <key>NSExceptionAllowsInsecureHTTPLoads</key>
               <true/>
               <key>NSIncludesSubdomains</key>
               <true/>
             </dict>
-            <key>i.kickbit.com</key>
-            <dict>
-              <key>NSExceptionAllowsInsecureHTTPLoads</key>
-              <true/>
-              <key>NSIncludesSubdomains</key>
-              <true/>
-            </dict>
-          </dict>
         </dict>
       </config-file>
     </platform>
