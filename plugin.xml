@@ -26,6 +26,7 @@
               <key>NSIncludesSubdomains</key>
               <true/>
             </dict>
+          </dict>
         </dict>
       </config-file>
     </platform>
